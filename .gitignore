@@ -1,2 +1,10 @@
-venv
-/scraper/__pycache__
+# Virtual Environment
+venv/
+.env
+
+# Python compilation
+__pycache__/
+*.pyc
+
+# Local Output (keep folder, ignore content via internal .gitignore)
+# /output is now managed by output/.gitignore
